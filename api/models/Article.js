@@ -14,6 +14,10 @@ module.exports = {
             required: true,
             maxLength: 50
         },
+        images: {
+            type: 'json',
+            columnType: 'array'
+        },
         categories: {
             type: 'json',
             columnType: 'array'
