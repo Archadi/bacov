@@ -15,6 +15,8 @@ module.exports.routes = {
     //  ║║║║╣ ╠╩╗╠═╝╠═╣║ ╦║╣ ╚═╗
     //  ╚╩╝╚═╝╚═╝╩  ╩ ╩╚═╝╚═╝╚═╝
     'GET /': { view: 'pages/homepage' },
+    'GET /login': { view: 'pages/entrance/login' },
+    'GET /register': { view: 'pages/entrance/signup' }
 
     /*'GET /faq': { view: 'pages/faq' },
     'GET /legal/terms': { view: 'pages/legal/terms' },
